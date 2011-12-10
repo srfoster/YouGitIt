@@ -1,0 +1,2 @@
+https://github.com/srfoster/UShell
+https://github.com/srfoster/Unloader

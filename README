@@ -1,0 +1,15 @@
+********************
+The YouGitIt Project
+********************
+
+This project makes managing Unity3D packages and their dependencies easier.  This is pre-alpha software, so feel free to help improve it.
+
+To get started, import YouGitIt.unitypackage into your project.  Then, set your dependencies in a .txt file under the "Dependencies" directory.  For example, if your project depends on the June and Euclid projects, your dependency text file would contain:
+
+https://github.com/srfoster/June
+https://github.com/srfoster/Euclid
+
+To obtain the latest versions of the June and Euclid projects, open Window > YouGitIt and press the "Git It!" button.  This will download the latest Unity3D package files from these git projects, placing them in the "YouGotIt" folder.  You may then import these package files by double-clicking them.
+
+If these projects support YouGitIt, and if they have dependencies, their dependency files will appear in your "Dependency" directory.  You can use the "YouGitIt" window again to obtain these second-level dependencies.  And so on.
+
