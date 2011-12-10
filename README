@@ -9,7 +9,7 @@ To get started, import YouGitIt.unitypackage into your project.  Then, set your 
 https://github.com/srfoster/June
 https://github.com/srfoster/Euclid
 
-To obtain the latest versions of the June and Euclid projects, open Window > YouGitIt and press the "Git It!" button.  This will download the latest Unity3D package files from these git projects, placing them in the "YouGotIt" folder.  You may then import these package files by double-clicking them.
+Your project's developers can obtain the latest versions of the June and Euclid projects by opening Window > YouGitIt and pressing the "Git It!" button.  This will download the latest Unity3D package files from these git projects, placing them in the "YouGotIt" folder.  They can then be imported by double-clicking them.
 
-If these projects support YouGitIt, and if they have dependencies, their dependency files will appear in your "Dependency" directory.  You can use the "YouGitIt" window again to obtain these second-level dependencies.  And so on.
+If the newly imported projects support YouGitIt (and if they have dependencies) their dependency files will appear in your "Dependency" directory.  You can use the "YouGitIt" window again to obtain these second-level dependencies.  And so on.
 
