@@ -1,3 +1,4 @@
+/* See the copyright information at https://github.com/srfoster/YouGitIt/blob/master/COPYRIGHT */
 
 /*
 TODO: Make it actually fetch the correct file.
