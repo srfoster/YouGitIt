@@ -23,11 +23,6 @@ class YouGitIt extends EditorWindow {
     }
 
     function OnGUI () {
-        if(!Directory.Exists(data_path+"/YouGotIt"))
-		{
-            Directory.CreateDirectory(data_path+"/YouGotIt");
-        }
-        
 		if(GUI.Button(Rect(Screen.width/2 - 50,Screen.height/2-30,100,20),button_text) && button_text != "Gitting...")
 		{
 			button_text = "Gitting...";
