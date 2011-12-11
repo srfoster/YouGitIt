@@ -55,11 +55,11 @@ class YouGitIt extends EditorWindow {
 					var to_git_path_split = to_git.Split('/'[0]);
 					var package_name = to_git_path_split[to_git_path_split.Length - 1];
 					
-			    	Debug.Log("Gitting " + to_git + "/blob/master/"+package_name+".unitypackage?raw=true");
+			    	Debug.Log("Gitting " + to_git);
 					feedback = "Gitting: " + to_git;
 		    		
 		    		var webClient = new WebClient();
-					webClient.DownloadFile(to_git + "/blob/master/"+package_name+".unitypackage?raw=true", data_path + "/YouGotIt/"+package_name+".unitypackage");
+					webClient.DownloadFile(to_git, data_path + "/Vendor/YouGitIt/"+package_name+".unitypackage");
 		    	}
 		    	
 		    	
