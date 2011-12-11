@@ -47,21 +47,29 @@ class YouGitIt extends EditorWindow {
 		    	
 		    	for(var to_git in to_gits)
 		    	{
-					var to_git_path_split = to_git.Split('/'[0]);
-					var package_name = to_git_path_split[to_git_path_split.Length - 1];
-					
-			    	Debug.Log("Gitting " + to_git);
-					feedback = "Gitting: " + to_git;
-		    		
-		    		var webClient = new WebClient();
-					webClient.DownloadFile(to_git, data_path + "/Vendor/YouGitIt/"+package_name);
+		    		if(to_git != "")
+		    		{
+		    			try{
+							var to_git_path_split = to_git.Split('/'[0]);
+							var package_name = to_git_path_split[to_git_path_split.Length - 1];
+							
+					    	Debug.Log("Gitting " + to_git);
+							feedback = "Gitting: " + to_git;
+				    		
+				    		var webClient = new WebClient();
+							webClient.DownloadFile(to_git, data_path + "/Vendor/YouGitIt/"+package_name);
+						}catch(e){
+							Debug.Log(e);
+							feedback = e.ToString();
+						}
+					}
 		    	}
 		    	
 		    	
 		    }
 		
 			button_text = "Git It!";
-			feedback = "Got It!  Refresh your Vendor/YouGitIt folder.";
+			feedback = "Got It!  Refresh your Vendor/YouGitIt/ folder";
 		}catch(e){
 			feedback = e.ToString();
 		}
