@@ -54,14 +54,14 @@ class YouGitIt extends EditorWindow {
 					feedback = "Gitting: " + to_git;
 		    		
 		    		var webClient = new WebClient();
-					webClient.DownloadFile(to_git, data_path + "/Vendor/YouGitIt/"+package_name+".unitypackage");
+					webClient.DownloadFile(to_git, data_path + "/Vendor/YouGitIt/"+package_name);
 		    	}
 		    	
 		    	
 		    }
 		
 			button_text = "Git It!";
-			feedback = "Got It!  Refresh your YouGotIt folder.";
+			feedback = "Got It!  Refresh your Vendor/YouGitIt folder.";
 		}catch(e){
 			feedback = e.ToString();
 		}
