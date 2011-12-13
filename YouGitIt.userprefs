@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/YouGitIt.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dependencies/yougitit_dependencies.txt">
     <Files>
-      <File FileName="Assets/Editor/YouGitIt.js" Line="64" Column="32" />
+      <File FileName="Assets/Editor/YouGitIt.js" Line="63" Column="31" />
+      <File FileName="Assets/Dependencies/yougitit_dependencies.txt" Line="2" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
